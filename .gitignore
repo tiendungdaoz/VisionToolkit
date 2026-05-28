@@ -1,0 +1,14 @@
+# Build files
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Nuget
+packages/
+
+# Local calibration config
+camera_config.json
