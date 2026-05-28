@@ -13,6 +13,7 @@ namespace VisionToolkit.Demo
 
             var calibration = new CameraCalibration();
 
+            //Select the path containing the chessboard images captured from the Camera.
             string dir = @"E:\Study 2025\PC Control 2025\Images\Images\chessboards\";
             string jsonPath = "camera_config.json";
 
