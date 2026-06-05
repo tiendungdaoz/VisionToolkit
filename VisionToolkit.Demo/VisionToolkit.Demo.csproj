@@ -8,6 +8,92 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Image\Chessboards\Im_R_1.png" />
+    <None Remove="Image\Chessboards\Im_R_10.png" />
+    <None Remove="Image\Chessboards\Im_R_11.png" />
+    <None Remove="Image\Chessboards\Im_R_12.png" />
+    <None Remove="Image\Chessboards\Im_R_13.png" />
+    <None Remove="Image\Chessboards\Im_R_14.png" />
+    <None Remove="Image\Chessboards\Im_R_15.png" />
+    <None Remove="Image\Chessboards\Im_R_16.png" />
+    <None Remove="Image\Chessboards\Im_R_17.png" />
+    <None Remove="Image\Chessboards\Im_R_18.png" />
+    <None Remove="Image\Chessboards\Im_R_19.png" />
+    <None Remove="Image\Chessboards\Im_R_2.png" />
+    <None Remove="Image\Chessboards\Im_R_20.png" />
+    <None Remove="Image\Chessboards\Im_R_3.png" />
+    <None Remove="Image\Chessboards\Im_R_4.png" />
+    <None Remove="Image\Chessboards\Im_R_5.png" />
+    <None Remove="Image\Chessboards\Im_R_6.png" />
+    <None Remove="Image\Chessboards\Im_R_7.png" />
+    <None Remove="Image\Chessboards\Im_R_8.png" />
+    <None Remove="Image\Chessboards\Im_R_9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Image\Chessboards\Im_R_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_12.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_13.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_14.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_15.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_16.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_17.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_18.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_19.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_20.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\Chessboards\Im_R_9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\VisionToolkit\VisionToolkit.csproj" />
   </ItemGroup>
 

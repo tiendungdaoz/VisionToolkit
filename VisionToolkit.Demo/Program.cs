@@ -14,7 +14,7 @@ namespace VisionToolkit.Demo
             var calibration = new CameraCalibration();
 
             //Select the path containing the chessboard images captured from the Camera.
-            string dir = @"E:\Study 2025\PC Control 2025\Images\Images\chessboards\";
+            string dir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Image", "Chessboards");
             string jsonPath = "camera_config.json";
 
             // -----------------------------
@@ -32,7 +32,7 @@ namespace VisionToolkit.Demo
             if (mode == "1")
             {
                 string[] imagePaths = Enumerable.Range(1, 20)
-                    .Select(i => $"{dir}Im_R_{i}.png")
+                    .Select(i => Path.Combine(dir, $"Im_R_{i}.png"))
                     .Where(File.Exists)
                     .ToArray();
 
@@ -92,7 +92,7 @@ namespace VisionToolkit.Demo
             // ==================================================
             Console.WriteLine("\n=== UNDISTORT TEST ===");
 
-            string imagePath = $"{dir}Im_R_1.png";
+            string imagePath = Path.Combine(dir, $"Im_R_1.png");
 
             using Mat src = Cv2.ImRead(imagePath);
             using Mat corrected = calibration.Undistort(src);
