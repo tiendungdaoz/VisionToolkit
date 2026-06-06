@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VisionToolkit.Utilities
+namespace VisionToolkit.Calibration.Utilities
 {
     /// <summary>
     /// Mat Resource Manager

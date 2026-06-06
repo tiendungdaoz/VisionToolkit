@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenCvSharp;
 
-namespace VisionToolkit.Calibration
+namespace VisionToolkit.Calibration.Models
 {
     /// <summary>
     /// Calibration Result

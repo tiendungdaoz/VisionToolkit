@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VisionToolkit.Calibration
+namespace VisionToolkit.Calibration.Models
 {
     internal class CalibrationConfig
     {
