@@ -28,6 +28,14 @@
     <None Remove="Images\Chessboards\Im_R_7.png" />
     <None Remove="Images\Chessboards\Im_R_8.png" />
     <None Remove="Images\Chessboards\Im_R_9.png" />
+    <None Remove="Images\TemplateMatching\Src1.bmp" />
+    <None Remove="Images\TemplateMatching\Src2.bmp" />
+    <None Remove="Images\TemplateMatching\Src3.bmp" />
+    <None Remove="Images\TemplateMatching\Src4.bmp" />
+    <None Remove="Images\TemplateMatching\Temp1.bmp" />
+    <None Remove="Images\TemplateMatching\Temp2.bmp" />
+    <None Remove="Images\TemplateMatching\Temp3.bmp" />
+    <None Remove="Images\TemplateMatching\Temp4.JPG" />
   </ItemGroup>
 
   <ItemGroup>
@@ -89,6 +97,30 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\Chessboards\Im_R_9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TemplateMatching\Src1.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TemplateMatching\Src2.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TemplateMatching\Src3.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TemplateMatching\Src4.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TemplateMatching\Temp1.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TemplateMatching\Temp2.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TemplateMatching\Temp3.bmp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TemplateMatching\Temp4.JPG">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

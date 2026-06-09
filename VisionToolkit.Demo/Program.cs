@@ -29,8 +29,7 @@ namespace VisionToolkit.Demo
                     break;
 
                 case "2":
-                    Console.WriteLine(
-                        "Template Matching Demo Coming Soon...");
+                    TemplateMatchingDemo.Run();
                     break;
 
                 case "3":
