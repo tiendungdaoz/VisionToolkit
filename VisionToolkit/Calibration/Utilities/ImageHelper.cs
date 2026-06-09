@@ -30,7 +30,7 @@ namespace VisionToolkit.Calibration.Utilities
     ///             path,
     ///             out string error);
     /// </summary>
-    public static class ImageHelper
+    internal static class ImageHelper
     {
         /// <summary>
         /// Load ảnh an toàn từ đường dẫn.
@@ -50,9 +50,7 @@ namespace VisionToolkit.Calibration.Utilities
         /// Ghi chú:
         ///     - error sẽ chứa thông tin lỗi
         /// </summary>
-        public static Mat LoadImageSafe(
-            string path,
-            out string error)
+        public static Mat LoadImageSafe(string path, out string error)
         {
             error = null;
 

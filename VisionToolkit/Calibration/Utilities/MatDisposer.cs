@@ -22,7 +22,7 @@ namespace VisionToolkit.Calibration.Utilities
     ///     - Dùng với 'using'
     ///     - Hoạt động giống mini garbage collector cho Mat
     /// </summary>
-    public class MatDisposer : IDisposable
+    internal class MatDisposer : IDisposable
     {
         private readonly List<Mat> _mats = new();
 
